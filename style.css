@@ -1,0 +1,35 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: aqua;
+}
+.lasthead{
+    background-color: white;
+}
+h1{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+}
+.head1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 3px 5px 7px red;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+}
+p{
+    line height: 50px;
+    font-family:arial;
+    
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
