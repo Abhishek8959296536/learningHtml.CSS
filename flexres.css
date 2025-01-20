@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blue;
+}
+.ch1, .ch2, .ch3{
+    background-color: brown;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
