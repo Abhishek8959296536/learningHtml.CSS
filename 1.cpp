@@ -1,13 +1,31 @@
 #include<iostream>
 using namespace std;
-int main(){
-    int arr[]={1,2,1,2,1};
-    int i=0;
-    int j=4;
-    for(int i=0;i<5;i++){
-        for(int j=i+1;i<j;j++){
-            if (arr[i]!=arr[j])
+int fibo(){
+    int i,n;
+    int ft=0;
+    int st=1;
+    int next;
+    i=0;n=7;
+    while(i<n)
+    {
+        if(i==0)
+        {
+            cout<<ft;
+            i++;
         }
-        cout<<"not a pallindrome"
+        if(i==1)
+        {
+            cout<<st;
+            i++;
+        }
+        next=ft+st;
+        ft=st;
+        st=next;
+        i++;
+        cout<<next;
     }
-}
+    return 0;
+    }
+    int main(){
+   fibo();
+   }

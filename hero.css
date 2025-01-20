@@ -1,0 +1,13 @@
+.parent{
+    display: flex;
+    background-attachment: gray;
+    justify-content: center;
+    align-items: center;
+    gap:100px ;
+    padding: 30px;
+    
+}
+.ch1 h1{
+    font-size: 40px;
+
+}

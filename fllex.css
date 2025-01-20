@@ -1,0 +1,14 @@
+.parent{
+display: flex;
+background-color: brown;
+justify-content:space-evenly;
+height: 100vh;
+align-items: center;
+}
+.ch1, .ch2{
+    background-color: blueviolet;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    
+}
